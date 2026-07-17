@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/run-code",
+      "destination": "/api/run-code"
+    },
+    {
+      "source": "/",
+      "destination": "/api/health"
+    }
+  ]
+}
